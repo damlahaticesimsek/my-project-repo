@@ -1,0 +1,379 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #616971;
+  background-color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+.wrapper {
+  width: 360px;
+  height: 1100px;
+  margin: 3rem auto;
+  background-color: white;
+  
+}
+.wrapper h5{
+  text-align: center;
+  color: #711185;
+}
+.wrapper img{
+  position: relative;
+  height: 7rem;
+  margin-left: 8rem;
+
+}
+.card .card-link{
+  color: #711185;
+}
+.col-md-5 img{
+  height: 260px;
+}
+/* Heart shaped checkbox */
+
+ li{
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+
+}
+ li label{
+  position: relative;
+}
+ li label input[type="checkbox"]{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+ li label .icon-box{
+  width: 50px;
+  height: 50px;
+  background: #560866;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  transition: 0.5s;
+
+}
+ li label .icon-box.fa{
+  font-size: 20px;
+  color: #ffffff;
+  transition: 1.5s;
+
+}
+ li label input[type="checkbox"]:checked ~ .icon-box{
+  background: rgb(20, 1, 26);
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(33, 156, 243, .5),
+              0 0 20px rgba(33, 156, 243, .5),
+              0 0 30px rgba(33, 156, 243, .5),
+              inset 0 0 10px rgba(33, 156, 243, 1);
+
+
+}
+ li label input[type="checkbox"]:checked ~ .icon-box .far{
+  color: fff;
+  text-shadow: 0 0 10px rgba(33, 156, 243, 1),
+               0 0 10px rgba(33, 156, 243, 1);
+
+}
+
+/*============= TOP BAR HEADER =============*/
+
+.top-bar {
+  background: #711185
+  
+}
+.top-bar a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+
+/*============= NAVIGATION =============*/
+
+.navbar {
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  z-index: 1;
+  
+}
+.form-select{
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  z-index: 1;
+}
+
+.card-body h5{
+  color: #711185;
+  font-size: 2rem;
+
+}
+.container .card .input-group{
+  width: 2px;
+  height: 5px;
+}
+
+
+.card-body p,a{
+  font-size: 1rem;
+  
+}
+.card-bodys p{
+  font-size: 1.2rem;
+
+}
+/* sol taraf filtreler */
+.containers{
+  
+  float: left;
+  height: 60px;
+
+}
+.containers .card{
+  width: 15rem;
+}
+.card h5{
+  font-size: 1.2rem;
+  
+}
+.tan h5 {
+  float: right;
+}
+
+.form-control{
+  box-shadow: 0 .3rem .3rem rgba(0, 0, 0, .1);
+}
+
+.form-check-label{
+  font-size: 1.2rem;
+  font-style: normal;
+ 
+}
+
+.d-flex{
+  position: absolute;
+  right: 0px;
+}
+
+.container-fluid {
+  position: relative;
+  display: inline-block;
+  
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.container-fluid:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.container-fluid:hover .dropbtn {background-color: #3e8e41;}
+
+/*-------filters--------*/
+.form-check{
+  color: #383838;
+  font-size: 1.2rem;
+  
+}
+.input-group {
+  font-size: 1rem;
+  box-sizing: content-box;
+  width: 250px;
+  height: 20px;
+
+}
+
+/*============= CAROUSEL =============*/
+#carousel {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.carousel-inner {
+  max-height: 38rem!important;
+}
+
+/*---Change Carousel Transition Speed --*/
+
+
+/*-- Carousel Content --*/
+.btn btn-outline-success{
+  background-color: silver;
+}
+.carousel-caption{
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+.bg-custom{
+  background-color: rgba(0, 0, 0, .4);
+  color:white;
+  border-radius: 1rem;
+}
+.carousel-caption h1{
+  font-size: 3.8rem;
+  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+
+}
+.border-primary {
+  border-top: 0.3rem solid #711185!important;
+
+}
+.carousel-caption h3{
+  font-size: 2.2rem;
+  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.btn-secondary{
+  background-color: #711185;
+  box-shadow:0 .5rem .5rem rgba(0, 0, 0, .1);
+
+}
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed-background {
+  overflow: hidden; /*-- Correction for iOS --*/
+}
+
+
+/*============= FOOTER =============*/
+
+footer{
+  background-color: #383838;
+  padding: 1rem 2rem 3rem ;
+  height: auto;
+  width: auto;
+  
+  
+}
+footer img{
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
+footer p,footer a,
+.socket a{
+  color: white;
+  text-decoration: none;
+}
+u1.social{
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+u1.social li{
+  margin: 0 auto;
+}
+footer .svg-inline--fa{
+  font-size: 2.3rem;
+}
+footer .svg-inline--fa:hover{
+  color: #711185;
+}
+/*============= SOCKET =============*/
+
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+  .carousel-caption h1{
+    font-size: 2.8rem;
+  }
+  .carousel-caption h3{
+    font-size: 1.8rem;
+  }
+
+}
+/* Devices under 992px (md) */
+@media (max-width: 991.98px) {
+  .carousel-caption h1{
+    font-size: 2.5;
+  }
+  .carousel-caption h3{
+    font-size: 1.5rem;
+  }
+  .btn-md{
+    font-size: .95rem;
+  }
+
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
