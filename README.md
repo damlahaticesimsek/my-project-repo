@@ -1,1 +1,1 @@
-# my-project-repo
+From this website you can look for new recipes. This website does not work dynamically, it is only for design purposes. For now it only contains html and css codes. 
